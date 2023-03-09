@@ -1,0 +1,27 @@
+.nav {
+  padding: 0.5rem 2rem;
+  background-image: url(./img/cool-background\(2\).png);
+  position: fixed;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  padding-left: 40%;
+}
+
+.nav li {
+  margin: 1.5rem;
+  color: #fff;
+  list-style: none;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.nav li:hover {
+  color: #2a797d;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}

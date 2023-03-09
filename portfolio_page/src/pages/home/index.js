@@ -1,8 +1,8 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import homeStyles from "../styles/home.module.css";
+import homeStyles from "../../styles/home.module.css";
 
-const Home = () => {
+const MainHome = () => {
   return (
     <>
       <div className={homeStyles.mainbox}>
@@ -45,4 +45,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MainHome;

@@ -1,0 +1,12 @@
+.mainbox {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100vh;
+  padding: 15%;
+  font-family: var(--font-IBM-Regular);
+  background-image: url("../components/img/cat.png");
+  background-repeat: no-repeat;
+  background-position: left 15% top 50%;
+  background-size: 20%;
+}
