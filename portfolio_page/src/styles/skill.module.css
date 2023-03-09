@@ -1,12 +1,20 @@
-.mainbox {
+.body {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
   width: 100vw;
-  height: 100vh;
-  padding: 15%;
+  padding: 10%;
   font-family: var(--font-IBM-Regular);
   background-image: url("../components/img/cat.png");
   background-repeat: no-repeat;
   background-position: left 15% top 50%;
   background-size: 20%;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: center;
+  padding: 5% 23%;
+  font-size: 3rem;
 }

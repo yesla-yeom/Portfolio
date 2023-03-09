@@ -1,10 +1,15 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import homeStyles from "../styles/home.module.css";
+// import Head from "next/head";
+// import HeadInfo from "../components/HeadInfo";
 
 const Home = () => {
   return (
     <>
+      {/* <Head>
+        <HeadInfo></HeadInfo>
+      </Head> */}
       <div className={homeStyles.mainbox}>
         <div className={homeStyles.titleframe}>
           <div className={homeStyles.titlebox0}>
@@ -18,7 +23,7 @@ const Home = () => {
                   typeSpeed: 150,
                   backSpeed: 100,
                 }}
-              />{" "}
+              />
               &nbsp;개발자 염예나입니다.
             </div>
             <div className={homeStyles.titlebox3}>
