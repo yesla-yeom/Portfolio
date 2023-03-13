@@ -8,14 +8,15 @@
   font-family: var(--font-IBM-Regular);
   background-image: url("../components/img/cat.png");
   background-repeat: no-repeat;
-  background-position: left 15% top 50%;
-  background-size: 20%;
+  background-position: left 200px top 250px;
+  background-size: 350px;
 }
 
 .mainbox {
   display: flex;
   justify-content: center;
-  padding: 5% 23%;
+  padding: 50px;
+  margin-right: 350px;
   font-size: 3rem;
 }
 
@@ -45,5 +46,5 @@
   font-size: 2rem;
   font-weight: 900;
   list-style: none;
-  padding: 0.5rem;
+  padding: 0 0.5rem 0.5rem;
 }

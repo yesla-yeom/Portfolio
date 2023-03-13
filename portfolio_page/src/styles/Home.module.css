@@ -1,14 +1,10 @@
 .mainbox {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
-  padding: 5% 20%;
+  padding: 5%;
   font-family: var(--font-poorStory-Regular);
-  background-image: url("../components/img/cat.png");
-  background-repeat: no-repeat;
-  background-position: left 15% top 50%;
-  background-size: 20%;
 }
 
 .titleframe {

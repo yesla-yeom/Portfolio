@@ -23,9 +23,6 @@ const Nav = () => {
               <Link href="/skill">Skill Inventory</Link>
             </li>
             <li>
-              <Link href="/archive">Archive</Link>
-            </li>
-            <li>
               <Link href="/projects">Projects</Link>
             </li>
             <li>

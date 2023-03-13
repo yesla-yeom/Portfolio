@@ -1,20 +1,28 @@
 .body {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: end;
   width: 100vw;
   padding: 10%;
   font-family: var(--font-IBM-Regular);
-  background-image: url("../components/img/cat.png");
-  background-repeat: no-repeat;
-  background-position: left 15% top 50%;
-  background-size: 20%;
 }
 
 .mainbox {
-  display: flex;
-  justify-content: center;
-  padding: 5% 23%;
+  text-align: center;
+  padding: 5% 0;
   font-size: 3rem;
+}
+
+.gridbox {
+  display: grid;
+  justify-content: center;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  background-color: rgba(240, 248, 255, 0.523);
+  border: 1px dashed;
+  border-radius: 10px;
 }
